@@ -1,0 +1,36 @@
+package student;
+
+public class Branch {
+	private String namebranch;
+	private int branchid;
+	private int maxnumseats;
+	public Branch() {}
+	public Branch(String namebranch , int branchid , int maxnumseats ) {
+		this.namebranch = namebranch;
+		this.branchid = branchid;
+		this.maxnumseats = maxnumseats;
+	}
+	public String getBranchname() {
+		return namebranch;
+	}
+	public void setBranchname(String namebranch) {
+		this.namebranch = namebranch;
+	}
+	public int getbranchid() {
+		return branchid;
+	}
+	public void setbranchid(int branchid) {
+		this.branchid = branchid;
+	}
+	public int getMaxnumseats() {
+		return maxnumseats;
+	}
+	public void setMaxnumseat(int maxnumseats) {
+		this.maxnumseats = maxnumseats;
+	}
+	public String toString() {
+		return " branch name : " + namebranch + " branch id : " + branchid + " maxnumseats of branch : " + maxnumseats +"\n";
+	}
+	
+
+}
